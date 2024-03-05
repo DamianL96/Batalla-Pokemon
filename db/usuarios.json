@@ -3248,6 +3248,32 @@
             19,
             3
           ]
+        },
+        {
+          "jugador1": "a",
+          "jugador2": "b",
+          "vencedor": true,
+          "pokemons": [
+            5,
+            69,
+            55,
+            81,
+            94,
+            148
+          ]
+        },
+        {
+          "jugador1": "a",
+          "jugador2": "b",
+          "vencedor": true,
+          "pokemons": [
+            67,
+            41,
+            44,
+            82,
+            100,
+            91
+          ]
         }
       ],
       "id": 21
@@ -3377,6 +3403,28 @@
       "email": "tobiasvalentini77@gmail.com",
       "historial": [],
       "id": 29
+    },
+    {
+      "apellido": "Sanchez",
+      "nombre": "Emmanuel",
+      "password": "damian123",
+      "email": "e@s",
+      "historial": [
+        {
+          "jugador1": "emmanuel",
+          "jugador2": "damian",
+          "vencedor": false,
+          "pokemons": [
+            66,
+            138,
+            48,
+            84,
+            69,
+            37
+          ]
+        }
+      ],
+      "id": 30
     }
   ]
 }

@@ -3,11 +3,11 @@
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
-        "start": "ng serve",
+        "start": "concurrently \"ng serve\" \"json-server ./db/usuarios.json --port 3001\"",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "backend": "json-server ./db/usuarios.json -p 4200 --watch"
+        "backend": "json-server ./db/usuarios.json -p 3001 --watch"
     },
     "private": true,
     "dependencies": {
@@ -21,6 +21,9 @@
         "@angular/platform-browser": "^16.2.0",
         "@angular/platform-browser-dynamic": "^16.2.0",
         "@angular/router": "^16.2.0",
+        "concurrently": "^7.6.0",
+        "json-serve": "^0.1.0",
+        "json-server": "^1.0.0-alpha.23",
         "ng2-tooltip-directive": "^2.10.3",
         "rxjs": "~7.8.0",
         "tslib": "^2.3.0",
